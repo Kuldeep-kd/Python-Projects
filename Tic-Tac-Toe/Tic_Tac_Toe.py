@@ -2,16 +2,6 @@
 def Display(board):
     print(' {} | {} | {} \n-----------\n {} | {} | {} \n-----------\n {} | {} | {} '.format(board[7],board[8],board[9],board[4],board[5],board[6],board[1],board[2],board[3]))
 
-#Let`s player choose a marker
-def Choose_Marker():
-    x = input("Please choose a Marker X or O ")
-    if x in ['X','O']:
-        player1 = 'X'
-        player2 = 'Y'
-    else:
-        print("Please enter Correct Marker!")
-        Choose_Marker()
-
 #Marks the location with the current player`s Marker
 def Place_Marker(board, marker, location):
     board[location] = marker
@@ -74,7 +64,6 @@ location = int()
 while True:
     board = ['#']+[' ']*9 #This # is to keep out the 0th index
     location = 0
-    Choose_Marker()
     marker = choose_first()
     while True:
         #Player 1
