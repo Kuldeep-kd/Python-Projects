@@ -23,16 +23,20 @@
   <ItemGroup>
     <Compile Include="Image.py" />
     <Compile Include="Image_DrawOver.py" />
+    <Compile Include="Image_Operations _GreenScreen.py" />
     <Compile Include="Image_Operations _Logo.py" />
     <Compile Include="Image_Operations.py" />
     <Compile Include="Image_Processing.py" />
+    <Compile Include="Image_Thresholding.py" />
     <Compile Include="Video.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\bookpage.jpg" />
     <Content Include="Assets\Demo.jpg" />
+    <Content Include="Assets\imagered.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
