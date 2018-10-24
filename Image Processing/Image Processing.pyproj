@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ec25fac2-da1b-441c-aa14-dfb3ab34d18e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Image_Operations.py</StartupFile>
+    <StartupFile>Image_Operations _GreenScreen.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,7 +26,6 @@
     <Compile Include="Image_Operations _GreenScreen.py" />
     <Compile Include="Image_Operations _Logo.py" />
     <Compile Include="Image_Operations.py" />
-    <Compile Include="Image_Processing.py" />
     <Compile Include="Image_Thresholding.py" />
     <Compile Include="Video.py" />
   </ItemGroup>
@@ -36,7 +35,13 @@
   <ItemGroup>
     <Content Include="Assets\bookpage.jpg" />
     <Content Include="Assets\Demo.jpg" />
-    <Content Include="Assets\imagered.jpg" />
+    <Content Include="Assets\image %280%29.jpg" />
+    <Content Include="Assets\image %281%29.jpg" />
+    <Content Include="Assets\image %282%29.jpg" />
+    <Content Include="Assets\image %283%29.jpg" />
+    <Content Include="Assets\image %284%29.jpg" />
+    <Content Include="Assets\image %285%29.jpg" />
+    <Content Include="Assets\image %286%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
