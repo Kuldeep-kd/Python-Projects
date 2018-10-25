@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Image.py" />
+    <Compile Include="Image_Blurring.py" />
     <Compile Include="Image_DrawOver.py" />
     <Compile Include="Image_Operations _GreenScreen.py" />
     <Compile Include="Image_Operations _Logo.py" />
