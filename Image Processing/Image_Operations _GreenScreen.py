@@ -15,7 +15,9 @@ for itr in range(len(images)):
 
 
 	hsv_image = cv2.cvtColor(image[itr], cv2.COLOR_BGR2HSV)
-	hsv_lower = np.array([0,0,30])							#Darker Red
+	# hsv_lower = np.array([0,0,10])							#Darker Red
+	# hsv_upper = np.array([10,255,255])						#Brighter Red
+	hsv_lower = np.array([0,0,0])							#Darker Red
 	hsv_upper = np.array([100,65,255])						#Brighter Red
 
 	mask = cv2.inRange(image[itr], hsv_lower, hsv_upper)
