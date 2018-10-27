@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Image_TemplateMatching1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Image.py" />
     <Compile Include="Image_Blurring.py" />
     <Compile Include="Image_DrawOver.py" />
@@ -46,6 +49,7 @@
     <Content Include="Assets\image %284%29.jpg" />
     <Content Include="Assets\image %285%29.jpg" />
     <Content Include="Assets\image %286%29.jpg" />
+    <Content Include="Assets\person.jpg" />
     <Content Include="Assets\rca_main.jpg" />
     <Content Include="Assets\template.jpg" />
   </ItemGroup>
