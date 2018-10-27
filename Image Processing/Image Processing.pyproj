@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ec25fac2-da1b-441c-aa14-dfb3ab34d18e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Image_Operations _GreenScreen.py</StartupFile>
+    <StartupFile>Template_Matching.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,9 @@
     <Compile Include="Image_Operations _Logo.py" />
     <Compile Include="Image_Operations.py" />
     <Compile Include="Image_Thresholding.py" />
+    <Compile Include="Template_Matching.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Video.py" />
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +46,8 @@
     <Content Include="Assets\image %284%29.jpg" />
     <Content Include="Assets\image %285%29.jpg" />
     <Content Include="Assets\image %286%29.jpg" />
+    <Content Include="Assets\rca_main.jpg" />
+    <Content Include="Assets\template.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
