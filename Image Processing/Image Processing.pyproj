@@ -21,6 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Image_CornerDetection.py" />
+    <Compile Include="Image_FeatureMatching.py" />
+    <Compile Include="Image_Gradient.py" />
+    <Compile Include="Image_MorphTrans.py" />
     <Compile Include="Image_TemplateMatching1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -40,6 +44,8 @@
     <Folder Include="Assets\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Bike1.jpg" />
+    <Content Include="Assets\Bike2.jpg" />
     <Content Include="Assets\bookpage.jpg" />
     <Content Include="Assets\Demo.jpg" />
     <Content Include="Assets\image %280%29.jpg" />
