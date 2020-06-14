@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cp = cv2.VideoCapture("Assets/Demo.mp4")
+cp = cv2.VideoCapture("Assets/FacesVideo.mp4")
 bg_sub = cv2.createBackgroundSubtractorMOG2()
 
 while 1:

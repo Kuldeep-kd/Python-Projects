@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Tic-Tac-Toe", "Tic-Tac-Toe\Tic-Tac-Toe.pyproj", "{FEFC3789-4B22-435B-89E1-775302D1721E}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Image Processing", "Image Processing\Image Processing.pyproj", "{EC25FAC2-DA1B-441C-AA14-DFB3AB34D18E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BioInformatics", "BioInformatics\BioInformatics.pyproj", "{C1CC4FCF-AEC7-4812-B1F5-6BAAEC244394}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,8 @@ Global
 		{FEFC3789-4B22-435B-89E1-775302D1721E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC25FAC2-DA1B-441C-AA14-DFB3AB34D18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EC25FAC2-DA1B-441C-AA14-DFB3AB34D18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CC4FCF-AEC7-4812-B1F5-6BAAEC244394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CC4FCF-AEC7-4812-B1F5-6BAAEC244394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
