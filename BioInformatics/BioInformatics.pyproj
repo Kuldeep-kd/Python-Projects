@@ -22,6 +22,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BioInformatics.py" />
+    <Compile Include="DNA_Sequencing/Dynamic k-mer.py" />
+    <Compile Include="DNA_Sequencing/RevComplement.py" />
+    <Compile Include="DNA_Sequencing/k-mer.py" />
+    <Compile Include="DNA_Sequencing\ClumpsAnalyser.py" />
+    <Compile Include="DNA_Sequencing\Dynamic k-mer.py" />
+    <Compile Include="DNA_Sequencing\k-mer.py" />
+    <Compile Include="DNA_Sequencing\PatternToNumber.py" />
+    <Compile Include="DNA_Sequencing\RevComplement.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DNA_Sequencing\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
