@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 
-cap = cv2.VideoCapture("./Assets/Demo.jpg")
+cap = cv2.VideoCapture(0)
 
 while cap.isOpened():
 

@@ -1,3 +1,13 @@
+def Count(dna, pattern):
+    k = len(pattern)
+    matches = 0
+
+    for x in range(0, len(dna)):
+        if dna[x] == pattern[0]:
+            if(str(dna[x:x+k]) == pattern):
+                matches += 1
+    return matches
+
 def NumberToPattern(number,k):
 	Template = { 0 : 'A', 1 : 'C', 2 : 'G', 3 : 'T'}
 	ans = ''
@@ -13,9 +23,19 @@ def PatternToNumber(pattern):
 	pattern = pattern[::-1]
 	for i in range(0, len(pattern)):
 		ans += Template[pattern[i]] * (4**i)
+	return int(ans)
 
-	print(ans)
+
+def ComputingFrequencies(Text,k):
+	arr = [0]*(4**(k)-1)
+	for x in range(0,len(Text)-1):
+		Number = PatternToNumber(Text[x:x+k])
+		if not Number == None:
+			arr[Number] += 1
+
+	return " ".join(str(x) for x in arr)
 
 
-#NumberToPattern(5437,7)
-PatternToNumber('ATGCAA')
+print(ComputingFrequencies('AACCTTGCATAAAAGGGGGGTCGAAACCATTAAAGAATGTATTATCCTGATACGCAGTGACTCTAGCGCGGGAACAGGAGAGTAGTATCCTGACAGCGCCTCGTAGTAAGAAAACCCGGCACGTGGCGCCGCGTCTCCGATCTAATATCTGTGTTTGGGATCGAGAATGCGTCTTTGAAATCATCTGGTCATCGCCTGCCAATAGAGATCGATAAGGTGTAGGGGTTCTCATTATCCGAGCCAATGCATATTCCGCCCTACACTCTGGGTATACTAAGATGCTCCAAACGCCCAACCACGCTAGTACGCGCACTAACCCCTTGTACACGCGTTCCGGTGCCCGTAGACATTGGCATGTCTCCCTAGCGTGGGCAGCTCCCCTCATCTATACCAGTTGAGGTATAAGAATCTTAAGGGCGAACAATTTTAAGGAGTCTGACTGATCCACATCGCGGCAGAGCCCCCGTCCTGTTCCTACCCTTACGTGGAGAAGTATGTGGGTCTAGTTGACTACTTCACGACAGCTATGGAGTAAGAGTGTTCCCACCCTTAGCTTCCCCAAGGAGCCAAATTTCGCGAGAAACCAGCCATGCGAGACACTAGCAAAGCTGGCGACCACCTCTTACCACAGTGAGGATACTCAGATTTTGTGGGAGCTCCTTACCTTGGTATTCTCCTTGCTTACCCCCCGT',6))
+# NumberToPattern(5437,8)
+# PatternToNumber('ATGCAA')

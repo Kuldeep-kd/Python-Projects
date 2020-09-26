@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c1cc4fcf-aec7-4812-b1f5-6baaec244394</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>BioInformatics.py</StartupFile>
+    <StartupFile>DNA_Sequencing\Dynamic k-mer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
